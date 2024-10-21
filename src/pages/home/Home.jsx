@@ -1,0 +1,30 @@
+import Profile from '../../assets/home.jpg';
+import { Link } from 'react-router-dom';
+import { FaArrowRight } from 'react-icons/fa';
+
+const Home = () => {
+    return (
+      <section className="home section grid">
+        <img src={ Profile } alt="Profile" className="home__img" />
+      <div className="home__content">
+        <div className="home__data">
+          <h1 className='home__title'>
+            <span>I'm Ya-Xin</span>Software Engineer
+          </h1>
+          <p className="home__description">
+            hello~~
+          </p>
+          <Link to='/about' className='button'>
+            More about me {''}
+            <span className="button__icon">
+              <FaArrowRight />
+            </span>
+          </Link>
+        </div>
+      </div>
+      </section>
+    );
+  };
+  
+  export default Home;  
+  
