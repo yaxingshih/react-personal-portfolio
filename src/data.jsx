@@ -61,13 +61,13 @@ import {
     {
       id: 1,
       title: 'First Name : ',
-      description: 'Steve',
+      description: 'Ya-Xin',
     },
   
     {
       id: 2,
       title: 'Last Name : ',
-      description: 'Milner',
+      description: 'Shih',
     },
   
     {
@@ -79,7 +79,7 @@ import {
     {
       id: 4,
       title: 'Nationality : ',
-      description: 'Tunisian',
+      description: 'Taiwan',
     },
   
     {
@@ -97,7 +97,7 @@ import {
     {
       id: 7,
       title: 'Phone : ',
-      description: '+21621184010',
+      description: '(+886)123456789',
     },
   
     {
@@ -115,7 +115,7 @@ import {
     {
       id: 10,
       title: 'Langages : ',
-      description: 'French, English',
+      description: 'Chinese, English',
     },
   ];
   
