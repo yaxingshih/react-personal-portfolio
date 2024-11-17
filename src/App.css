@@ -22,9 +22,10 @@
     --h1-font-size: 50px;
     --h2-font-size: 32px;
     --h3-font-size: 24px;
-    --normal-font-size: 16px;
     --large-font-size: 18px;
-    --small-font-size: 14px;
+    --normal-font-size: 16px;
+    --small-font-size: 15px;
+    --smaller-font-size: 14px;
     --tiny-font-size: 12px;
 
     /* ========== Font Weight ========== */
@@ -43,6 +44,22 @@
     --container-color: hsl(0, 1%, 17%);
     --border-color :hsl(0, 0%, 15%);
 }
+/* ========== Resbonsive typography ========== */
+@media screen and (max-width:1200px) {
+    :root {
+        --big-font-size: 36px;
+        --h1-font-size: 32px;
+        --h2-font-size: 24px;
+        --h3-font-size: 20px;
+        --large-font-size: 16px;
+        --normal-font-size: 15px;
+        --small-font-size: 14px;
+        --smaller-font-size: 13px;
+        --tiny-font-size: 11px;
+    }
+    
+}
+
 /* ========== BASE ========== */
 * {
     margin: 0;
