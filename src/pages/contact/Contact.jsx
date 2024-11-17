@@ -39,8 +39,9 @@ const Contact = () => {
             </div>
 
             <div className="contact__socials">
-              <a href="https://facebook.com" className="contact__social-link"></a>
-              <FaFacebookF />
+              <a href="https://facebook.com" className="contact__social-link">
+                <FaFacebookF />
+              </a>
             </div>
 
           </div>
@@ -49,9 +50,11 @@ const Contact = () => {
             <div className="form__input-group">
               <div className="form__input-div">
                 <input type="text" className="form__control" placeholder='Your Name'/>
-
+              </div>
+              <div className="form__input-div">
                 <input type="text" className="form__control" placeholder='Your Email'/>
-
+              </div>
+              <div className="form__input-div">
                 <input type="text" className="form__control" placeholder='Your Subject'/>
               </div>
             </div>
