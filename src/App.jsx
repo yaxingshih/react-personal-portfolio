@@ -11,7 +11,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-personal-portfolio">
       <Navbar />
       <Themes />
       <Routes>
